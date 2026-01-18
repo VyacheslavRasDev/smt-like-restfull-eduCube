@@ -15,10 +15,10 @@ https://educube.ru/products/
 
 **Метод:** GET  
 **URL:**
-- /products/{product}
+- /products/{slug}
 
 **Пример запроса на сервер:**  
-https://educube.ru/catalog/lego-education-bricq-motion/
+https://educube.ru/products/lego-education-bricq-motion/
 
 **Назначение:**
 - отображает информацию о товаре: название, артикул, описание, изображения(слайдер), цена, старая цена(при наличии), наличие, характеристики, подробное описание;
