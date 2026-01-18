@@ -19,8 +19,7 @@ https://educube.ru/
 200 OK
 
 **Errors:**  
-404 - not found;   
-403 -  forbidden;   
+404 - not found;    
 500 -  server error;
 
 

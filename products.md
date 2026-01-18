@@ -24,7 +24,7 @@ https://educube.ru/products/lego-education-bricq-motion/
 - отображает информацию о товаре: название, артикул, описание, изображения(слайдер), цена, старая цена(при наличии), наличие, характеристики, подробное описание;
 - детали набора(при наличии);
 - похожие товары;
-  
+
 
 Response:  
 200
@@ -73,8 +73,11 @@ Response:
                 "category": "string",
                 "manufacturer": "string",
             ],
+[
 ```  
 
 **Errors:**  
-404 - not found;    
-500 -  server error;
+404 - not found;
+400 - bad request;
+500 - server error;
+---------------------------------------------------

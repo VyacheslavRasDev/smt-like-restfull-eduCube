@@ -55,13 +55,12 @@ https://educube.ru/catalog/lego-education/?age=7-10&direction=mathematical
 https://educube.ru/catalog/lego-education/?sort=PRICE&order=desc
 
 **Response:**  
-* 200 OK
+200 OK
 
 **Errors:**  
-* 404 not found  
-* 400 bad request  
-* 500 server error
-
+404 not found  
+400 bad request  
+500 server error
 ---------------------------------------------------
 
 
