@@ -17,7 +17,7 @@ https://educube.ru/products/
 **URL:**
 - /products/{product}
 
-**Пример запроса на сервер:**  
+Пример запроса: 
 https://educube.ru/products/lego-education-bricq-motion/
 
 **Назначение:**
@@ -26,7 +26,7 @@ https://educube.ru/products/lego-education-bricq-motion/
 - похожие товары;
 
 
-Response:  
+**Response:**  
 200
 ```
 [  
@@ -48,7 +48,7 @@ Response:
             ],  
     "availability":  
             [  
-                "in_stock": boolean,  
+                "in_stock": "boolean",  
                 "quantity": int,  
             ],   
     "main_description": "string",
@@ -77,7 +77,7 @@ Response:
 ```  
 
 **Errors:**  
-404 - not found;
-400 - bad request;
+404 - not found;  
+400 - bad request;  
 500 - server error;
 ---------------------------------------------------

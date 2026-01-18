@@ -7,7 +7,7 @@
 Отображение каталога товаров. При обращении к /catalog/ пользователь
 перенаправляется в основной раздел каталога.
 
-**Пример запроса на сервер:**  
+Пример запроса: 
 https://educube.ru/catalog/
 -----------------------------------------
 
@@ -19,7 +19,7 @@ https://educube.ru/catalog/
 
 Отображение подразделов раздела каталога, товаров, которые к нему относятся.
 
-**Пример запроса на сервер:**  
+Пример запроса: 
 https://educube.ru/catalog/lego-education/
 
 **Назначение:**
@@ -35,7 +35,7 @@ https://educube.ru/catalog/lego-education/
 - category (string);
 - series (string);
 
-**Пример запроса:**  
+Пример запроса: 
 https://educube.ru/catalog/lego-education/?age=7-10&direction=mathematical
 
 **Сортировка товаров:**
@@ -51,7 +51,7 @@ https://educube.ru/catalog/lego-education/?age=7-10&direction=mathematical
 - asc - по возрастанию;
 - desc - по убыванию;
 
-**Пример запроса:**  
+Пример запроса: 
 https://educube.ru/catalog/lego-education/?sort=PRICE&order=desc
 
 **Response:**  
