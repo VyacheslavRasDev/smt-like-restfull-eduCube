@@ -19,8 +19,7 @@ https://educube.ru/catalog/
 
 Отображение подразделов раздела каталога, товаров, которые к нему относятся.
 
-Пример запроса: 
-https://educube.ru/catalog/lego-education/
+Пример запроса: https://educube.ru/catalog/lego-education/
 
 **Назначение:**
 - отображает подразделы;
@@ -58,10 +57,10 @@ https://educube.ru/catalog/lego-education/?sort=PRICE&order=desc
 200 OK
 
 **Errors:**  
-404 not found  
-400 bad request  
-500 server error
----------------------------------------------------
+404 -  not found;  
+400 - bad request;  
+500 - server error;
+
 
 
 

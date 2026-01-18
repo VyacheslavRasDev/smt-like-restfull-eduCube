@@ -20,7 +20,7 @@ https://educube.ru/
 
 **Errors:**  
 404 - not found;    
-500 -  server error;
+500 - server error;
 
 
 
