@@ -16,7 +16,7 @@ https://educube.ru/
 - принимает заявки пользователей на обратную связь;
 
 **Response:**  
-200 OK
+200 - OK;
 
 **Errors:**  
 404 - not found;    

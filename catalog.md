@@ -1,8 +1,7 @@
 ## Каталог
 
 **Метод:** GET  
-**URL:**  
- - /catalog/
+**URL:** /catalog/
 
 Отображение каталога товаров. При обращении к /catalog/ пользователь
 перенаправляется в основной раздел каталога.
@@ -14,8 +13,7 @@ https://educube.ru/catalog/
 ## Раздел каталога
 
 **Метод:** GET  
-**URL:**
-- /catalog/{section}/
+**URL:** /catalog/{section}/
 
 Отображение подразделов раздела каталога, товаров, которые к нему относятся.
 
@@ -54,7 +52,7 @@ https://educube.ru/catalog/lego-education/?age=7-10&direction=mathematical
 https://educube.ru/catalog/lego-education/?sort=PRICE&order=desc
 
 **Response:**  
-200 OK
+200 - OK;
 
 **Errors:**  
 404 -  not found;  

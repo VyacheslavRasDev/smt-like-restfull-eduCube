@@ -1,8 +1,7 @@
-## Товары (не завершено)
+## Товары 
 
 **Метод:** GET  
-**URL:**  
- - /products/
+**URL:** /products/
 
 Отображение товара. При обращении к /products/ пользователь
 перенаправляется в основной раздел каталога.
@@ -13,8 +12,9 @@
 ## Товар
 
 **Метод:** GET  
-**URL:**
-- /products/{product}
+**URL:** /products/{product}
+
+Отображение страницы товара.
 
 Пример запроса: 
 https://educube.ru/products/lego-education-bricq-motion/
@@ -26,7 +26,7 @@ https://educube.ru/products/lego-education-bricq-motion/
 
 
 **Response:**  
-200
+200 - OK;
 ```
 [  
     "id": int,  
@@ -42,7 +42,7 @@ https://educube.ru/products/lego-education-bricq-motion/
     "price":  
             [  
                 "current_price": int,  
-                "old_price": int,  
+                "old_price": int (nullable), 
                 "currency": "RUB",  
             ],  
     "availability":  
