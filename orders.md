@@ -30,7 +30,6 @@ Response:
 
 **Errors:**  
 400 - not found;  
-
 422 - unprocessable Entity;  
 500 - server error;
 
