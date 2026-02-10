@@ -19,40 +19,9 @@ https://educube.ru/catalog/
 
 Пример запроса: https://educube.ru/catalog/lego-education/
 
-**Назначение:**
-- отображает подразделы;
-- отображает товары раздела;
-- фильтрация;
-- сортировка;
-- пагинация;
-
-**Фильтрация товаров:**
-- age (string);
-- direction (string);
-- category (string);
-- series (string);
-
-Пример запроса: 
-https://educube.ru/catalog/lego-education/?age=7-10&direction=mathematical
-
-**Сортировка товаров:**
-- sort (string);
-- order (string);
-
-**Значения sort:**
-- SORT - по популярности;
-- NAME - по алфавиту;
-- PRICE - по цене;
-
-**Значения order;**
-- asc - по возрастанию;
-- desc - по убыванию;
-
-Пример запроса: 
-https://educube.ru/catalog/lego-education/?sort=PRICE&order=desc
-
 **Response:**  
-200 - OK;
+200 - OK;  
+302 - Redirect;
 
 **Errors:**  
 404 -  not found;  

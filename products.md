@@ -1,23 +1,31 @@
+## Роуты  
+GET '/catalog/{section}/' - отображение страницы товаров   
+GET '/catalog/{section}/{product}' - отображение страницы товара 
+
 ## Товары 
 
 **Метод:** GET  
-**URL:** /products/
+**URL:** /catalog/{section}/
 
-Отображение товара. При обращении к /products/ пользователь
-перенаправляется в основной раздел каталога.
+Пример запроса: https://educube.ru/catalog/{section}/
 
-Пример запроса: https://educube.ru/products/
+**Response**  
+200
 
+**Errors:**  
+404 - not found;  
+400 - bad request;  
+500 - server error;
 ---------------------------------
 ## Товар
 
 **Метод:** GET  
-**URL:** /products/{product}
+**URL:** /catalog/{section}/{product}
 
 Отображение страницы товара.
 
 Пример запроса: 
-https://educube.ru/products/lego-education-bricq-motion/
+https://educube.ru/catalog/{section}/{product}
 
 **Назначение:**
 - отображает информацию о товаре: название, артикул, описание, изображения(слайдер), цена, старая цена(при наличии), наличие, характеристики, подробное описание;
