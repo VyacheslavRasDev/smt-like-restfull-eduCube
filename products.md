@@ -12,10 +12,10 @@ GET '/catalog/{section}/{product}' - отображение страницы т�
 **Response**  
 200
 
-**Errors:**  
-404 - not found;  
-400 - bad request;  
-500 - server error;
+Errors:  
+404  
+400  
+500
 ---------------------------------
 ## Товар
 

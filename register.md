@@ -10,10 +10,10 @@ POST '/register' - запрос на регистрацию пользовате
 Пример запроса:  
 https://educube.ru/register
 
-**Response:**  
-200 - OK;   
-404 - not found;    
-500 - server error;
+Response:  
+200  
+404   
+500
 ----------
 ## Запрос на регистрацию пользователя
 
@@ -51,6 +51,10 @@ https://educube.ru/register
     }
 }
 ```
-
+Errors: 
+404   
+422   
+400   
+500
 
 
