@@ -11,10 +11,10 @@ DELETE '/sessions' - запрос на прекращение сессии
 Пример запроса:  
 https://educube.ru/sessions
 
-**Response:**
+Response   
 200
 
-**Errors**  
+Errors   
 404    
 500
 ------
@@ -35,7 +35,8 @@ https://educube.ru/sessions
 }
 ```
 
-**Response**  
+Response  
+200
 ```
 {
     "status": "success",
@@ -49,9 +50,9 @@ https://educube.ru/sessions
     "token": "..."
 }
 ```
-200;
 
-**Errors**  
+
+Errors  
 401  
 422
 ```
@@ -72,7 +73,7 @@ https://educube.ru/sessions
 
 Определяет пользователя по токену и завершает сессию.
 
-**Response**
+Response   
 200
 
 ```
@@ -81,7 +82,7 @@ https://educube.ru/sessions
     "message": "Successfully logged out"
 }
 ```
-**Errors**   
+Errors  
 401
 
 

@@ -33,8 +33,8 @@ https://educube.ru/catalog/{section}/{product}
 - похожие товары;
 
 
-**Response:**  
-200 - OK;
+Response   
+200
 ```
 [  
     "id": int,  
@@ -83,8 +83,8 @@ https://educube.ru/catalog/{section}/{product}
 [
 ```  
 
-**Errors:**  
-404 - not found;  
-400 - bad request;  
-500 - server error;
+Errors  
+404  
+400   
+500
 

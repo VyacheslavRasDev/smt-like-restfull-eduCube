@@ -19,14 +19,14 @@ https://educube.ru/catalog/
 
 Пример запроса: https://educube.ru/catalog/lego-education/
 
-**Response:**  
-200 - OK;  
-302 - Redirect;
+Response  
+200  
+302
 
-**Errors:**  
-404 -  not found;  
-400 - bad request;  
-500 - server error;
+Errors   
+404  
+400  
+500
 
 
 

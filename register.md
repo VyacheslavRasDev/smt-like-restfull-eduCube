@@ -8,7 +8,7 @@ POST '/register' - запрос на регистрацию пользовате
 **URL:** /register
 
 Пример запроса:  
-https://educube.ru/register
+https://educube.ru/register  
 
 Response:  
 200  
@@ -51,7 +51,7 @@ https://educube.ru/register
     }
 }
 ```
-Errors: 
+Errors:  
 404   
 422   
 400   

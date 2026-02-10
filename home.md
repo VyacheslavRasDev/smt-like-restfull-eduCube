@@ -8,12 +8,12 @@ https://educube.ru/home / https://educube.ru/
 
 Главная страница
 
-**Response:**  
-200 - OK;
+Response   
+200
 
-**Errors:**  
-404 - not found;    
-500 - server error;
+Errors  
+404    
+500
 
 
 
